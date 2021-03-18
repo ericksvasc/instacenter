@@ -1,0 +1,45 @@
+.Container{
+  background: #000000;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.Foto{
+  padding-top: 2rem;
+  
+}
+.Logo{
+  border-radius: 50%;
+}
+.Name p{
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin: 0.3rem 0 0;
+}
+.Bio p {
+  max-width: 70vw;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 0.8rem 0 0;
+}
+.Cc p {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+}
+.Cc {
+  position: absolute;
+  top: 90vh;
+  
+}
+.Cc span {
+  font-family: 'Bebas neue';
+  font-size: 1.2rem;
+  
+}
